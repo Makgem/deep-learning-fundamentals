@@ -1,0 +1,17 @@
+# Временные и локальные файлы
+*.db
+*.log
+*.tmp
+status.db
+pyarmor.bug.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Скомпилированные и собранные файлы
+dist/
+build/
