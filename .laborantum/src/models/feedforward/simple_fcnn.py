@@ -14,7 +14,6 @@ class SimpleFCNN(torch.nn.Module):
         for i in range(len(channels) - 1):
             modules.append(torch.nn.Linear(channels[i], channels[i+1]))
             modules.append(activation())
-
         self.backbone = torch.nn.Sequential(*modules)
         self.classifier = torch.nn.Linear(channels[-1], n_classes)
         # -- placeholder end --
