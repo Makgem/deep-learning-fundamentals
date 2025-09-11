@@ -37,3 +37,4 @@ dist/
 pyarmor_runtime_*/
 *.log
 ID.txt
+.neptune/
