@@ -32,3 +32,8 @@ __pycache__/
 .mypy_cache/
 __pypackages__/
 >>>>>>> upstream/main
+.neptune/
+dist/
+pyarmor_runtime_*/
+*.log
+ID.txt
